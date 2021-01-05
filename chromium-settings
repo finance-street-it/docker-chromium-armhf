@@ -5,9 +5,9 @@ CHROMIUM_FLAGS="$CHROMIUM_FLAGS \
 --profiler-timing=0 \
 --disable-composited-antialiasing \
 --disk-cache-dir=/tmp/${USER}-cache \
---disk-cache-size=100M \
+--disk-cache-size=100000000 \
 --no-sandbox \
 --test-type \
 --show-component-extension-options \
---ignore-gpu-blacklist \
+--ignore-gpu-blocklist \
 --use-gl=egl"
